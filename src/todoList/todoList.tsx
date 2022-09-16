@@ -8,7 +8,6 @@ const InputGroupDemo = () => {
   return (
     <div>
       <div className="card">
-        <h5>Checkbox and RadioButton</h5>
         <div className="grid p-fluid">
           <div className="col-12">
             <div className="p-inputgroup">
