@@ -1,5 +1,6 @@
 import Div100vh from "react-div-100vh";
 import "./index.css";
+import { Button } from "primereact/button";
 
 const MyTodoList: React.FC = () => {
   return (
@@ -22,7 +23,12 @@ const MyTodoList: React.FC = () => {
             amet maiores esse est et quidem similique nobis eum enim!
           </div>
           <div>
-            <button className="button">Add To Do</button>
+            <Button
+              icon="pi pi-plus"
+              label="Add List"
+              className="p-button-rounded"
+              style={{ backgroundColor: "green" }}
+            />
           </div>
         </div>
       </div>

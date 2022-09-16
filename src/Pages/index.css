@@ -1,6 +1,6 @@
 .cardlist {
-    background-color: #282c34;
-    color: white;
+    background-color: blanchedalmond;
+    color: black;
     padding: 40px;
     font-family: Arial;
     text-align: center;
@@ -21,6 +21,6 @@
       height: 100%;
   }
 
-.button {
-    bottom: 0px;
+.p-button-rounded {
+    color: #000;
 }
